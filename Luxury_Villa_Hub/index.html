@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Villa Hub</title>
+    <!-- Google Fonts for typography -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FontAwesome for fallback icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- SECTION 1: Header -->
+    <header class="site-header" id="siteHeader">
+        <div class="header-container">
+            <div class="logo-col">
+                <img src="assets/Luxury_Villa_Hub_Logo.png" alt="Luxury Villa Hub Logo" class="site-logo">
+            </div>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#property-listings">Property Listings</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="action-col">
+                <div class="nav-dropdown">
+                    <button class="btn-solid-gold hidden-mobile fw-bold">Get in Touch <i
+                            class="fa-solid fa-chevron-down" style="font-size:12px; margin-left:5px;"></i></button>
+                    <div class="nav-dropdown-content">
+                        <a href="tel:+919082206173"><i class="fa-solid fa-phone" style="margin-right:8px;"></i>
+                            Call</br>+91 90822 06173</a>
+                        <a href="https://wa.me/919082206173" target="_blank"><i class="fa-brands fa-whatsapp"
+                                style="margin-right:8px; color:#25D366;"></i> WhatsApp</a>
+                    </div>
+                </div>
+                <button class="hamburger-menu" id="hamburgerMenu" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul>
+                <li><a href="#property-listings">Property Listings</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+                <li class="mobile-dropdown-wrapper">
+                    <button class="btn-solid-gold fw-bold" id="mobileGetInTouch"
+                        style="width: 100%; text-align: left; display: flex; justify-content: space-between; align-items: center;">Get
+                        in Touch <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="mobile-dropdown-content" id="mobileContactDropdown">
+                        <a href="tel:+919082206173"><i class="fa-solid fa-phone"></i> Call: +91 90822 06173</a>
+                        <a href="https://wa.me/919082206173" target="_blank"><i class="fa-brands fa-whatsapp"
+                                style="color:#25D366;"></i> WhatsApp</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- SECTION 1 (Part 2): Hero -->
+    <section class="hero-section" style="background-image: url('assets/home_head.jpeg');">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Experience Luxury Living</h1>
+        </div>
+    </section>
+
+    <!-- SECTION 1 (Part 3): 3 Feature Columns -->
+    <section class="three-features">
+        <div class="container feature-grid">
+            <div class="feature-card">
+                <div class="icon-circle"><i class="fa-solid fa-crown"></i></div>
+                <h3 class="feature-title">Finest Collection</h3>
+                <p class="feature-desc">The highest standard in luxury villa rentals, our select portfolio represents
+                    The Luxury Signature's unyielding dedication to excellence. From hundreds of possible selections in
+                    each location, only the best villas are chosen to present to our elite clientele.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-circle"><i class="fa-solid fa-concierge-bell"></i></div>
+                <h3 class="feature-title">Personalized Experience</h3>
+                <p class="feature-desc">Everyone's ideal vacation is different. To account for that, we don't just sell
+                    the same prepackaged experience. We go to great lengths to offer dedicated concierge service, a
+                    trained expert who can customize your villa vacation experience.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-circle"><i class="fa-solid fa-star"></i></div>
+                <h3 class="feature-title">5-Star Amenities</h3>
+                <p class="feature-desc">Starting from 4 bedrooms and up, featuring luxurious amenities and facilities
+                    such as a private pool, gym, spa, cinema, entertainment areas, tennis court, and much more.
+                    Let our villa specialist help find your dream holiday home.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: Image + 6 Features -->
+    <section class="image-features-section">
+        <div class="full-width-image">
+            <img src="assets/Lady_siting_hall.png" alt="Luxury Interior Hall">
+        </div>
+
+        <div class="container">
+            <div class="six-features-grid">
+                <div class="six-feature-item">
+                    <div class="icon"><i class="fa-solid fa-house-chimney-window"></i></div>
+                    <div class="text">Hassle-free onboarding of all your property units</div>
+                </div>
+                <div class="six-feature-item">
+                    <div class="icon"><i class="fa-solid fa-handshake"></i></div>
+                    <div class="text">Seamless end-to-end management & on-ground expertise</div>
+                </div>
+                <div class="six-feature-item">
+                    <div class="icon"><i class="fa-solid fa-users"></i></div>
+                    <div class="text">Training and empowering staff for hospitality excellence</div>
+                </div>
+                <div class="six-feature-item">
+                    <div class="icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <div class="text">Expert guidance on building guest-friendly homes</div>
+                </div>
+                <div class="six-feature-item">
+                    <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <div class="text">Maximise sales with customised marketing</div>
+                </div>
+                <div class="six-feature-item">
+                    <div class="icon"><i class="fa-solid fa-champagne-glasses"></i></div>
+                    <div class="text">Curated F&B and celebration experiences</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: Villas in Focus Slider -->
+    <section class="villas-slider-section">
+        <div class="container section-header">
+            <h2>Villas in Focus</h2>
+            <p>A preview of some of our best villa collection</p>
+        </div>
+
+        <div class="slider-wrapper">
+            <button class="slider-arrow left" id="villasPrev"><i class="fa-solid fa-arrow-left"></i></button>
+            <div class="slider-container" id="villasSlider">
+                <!-- Cards -->
+                <div class="villa-card">
+                    <div class="villa-img">
+                        <img src="assets/LVH 43.jpeg" alt="Villa Zai">
+                        <span class="villa-tag">Premium Collection</span>
+                    </div>
+                    <div class="villa-info">
+                        <h3>Villa Zai</h3>
+                        <p class="villa-loc">Phuket, Thailand</p>
+                        <a href="#" class="btn-text">View Details <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="villa-card">
+                    <div class="villa-img">
+                        <img src="assets/LVH 18.jpeg" alt="Villa Akatsuki">
+                        <span class="villa-tag">Premium Collection</span>
+                    </div>
+                    <div class="villa-info">
+                        <h3>Villa Akatsuki</h3>
+                        <p class="villa-loc">Koh Samui, Thailand</p>
+                        <a href="#" class="btn-text">View Details <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="villa-card">
+                    <div class="villa-img">
+                        <img src="assets/LVH 14.jpeg" alt="Chalet Hakuchōzan">
+                        <span class="villa-tag">Premium Collection</span>
+                    </div>
+                    <div class="villa-info">
+                        <h3>Chalet Hakuchōzan</h3>
+                        <p class="villa-loc">Niseko, Japan</p>
+                        <a href="#" class="btn-text">View Details <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="villa-card">
+                    <div class="villa-img">
+                        <img src="assets/LVH 42.jpeg" alt="Villa Serenity">
+                        <span class="villa-tag">Premium Collection</span>
+                    </div>
+                    <div class="villa-info">
+                        <h3>Villa Serenity</h3>
+                        <p class="villa-loc">Bali, Indonesia</p>
+                        <a href="#" class="btn-text">View Details <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="villa-card">
+                    <div class="villa-img">
+                        <img src="assets/LVH 58.jpeg" alt="Villa Oasis">
+                        <span class="villa-tag">Premium Collection</span>
+                    </div>
+                    <div class="villa-info">
+                        <h3>Villa Oasis</h3>
+                        <p class="villa-loc">Maldives</p>
+                        <a href="#" class="btn-text">View Details <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-arrow right" id="villasNext"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <!-- SECTION 4: Stay Standard -->
+    <section class="stay-standard-section">
+        <div class="container section-header">
+            <h2>The Luxury Hub Standard</h2>
+            <p>Enjoy our signature features that make every stay effortless and enjoyable.</p>
+        </div>
+
+        <div class="container">
+            <div class="masonry-grid-4">
+                <div class="masonry-item left-tall">
+                    <img src="assets/birthday-party.jpeg" alt="Party">
+                </div>
+                <div class="masonry-item mid-top">
+                    <img src="assets/Food.jpeg" alt="Food">
+                </div>
+                <div class="masonry-item mid-bottom">
+                    <img src="assets/Mom&Son.jpeg" alt="Mom and Son">
+                </div>
+                <div class="masonry-item right-tall">
+                    <img src="assets/ReplaceWidding.jpeg" alt="Wedding">
+                </div>
+            </div>
+
+            <!-- Icons -->
+            <div class="standard-icons-bar">
+                <div class="std-icon-item">
+                    <img src="assets/green_open_spaces.png" alt="Celebrations">
+                    <span>Personalised Celebrations</span>
+                </div>
+                <div class="std-icon-item">
+                    <img src="assets/green_open_spaces.png" alt="Caretaker">
+                    <span>Caretaker Onsite</span>
+                </div>
+                <div class="std-icon-item">
+                    <img src="assets/in_house_chef.png" alt="Chef">
+                    <span>In-house Chef</span>
+                </div>
+                <div class="std-icon-item">
+                    <img src="assets/local_experience.png" alt="Experience">
+                    <span>Local Experiences</span>
+                </div>
+                <div class="std-icon-item">
+                    <img src="assets/private_pool.png" alt="Pool">
+                    <span>Private Pool</span>
+                </div>
+                <div class="std-icon-item">
+                    <img src="assets/bulter_service.png" alt="Butler">
+                    <span>Butler Service</span>
+                </div>
+                <div class="std-icon-item">
+                    <img src="assets/games_recreation.png" alt="Games">
+                    <span>Games & Recreation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: Choose a Collection Slider -->
+    <section class="collection-section">
+        <div class="container section-header">
+            <h2>Choose a Collection</h2>
+        </div>
+
+        <div class="slider-wrapper">
+            <button class="slider-arrow left" id="colPrev"><i class="fa-solid fa-arrow-left"></i></button>
+            <div class="slider-container custom-scrollbar" id="colSlider">
+                <div class="collection-card">
+                    <img src="assets/kid-friendly-villas-1748281925.jpeg" alt="Romantic Getaways">
+                    <div class="col-overlay">
+                        <h3>Romantic Getaways</h3>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <img src="assets/vaana-by-stayvista-1769676586.jpeg" alt="Winter Getaways">
+                    <div class="col-overlay">
+                        <h3>Winter Getaways</h3>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <img src="assets/kid-friendly-villas-1748281925.jpeg" alt="Newly Launched">
+                    <div class="col-overlay">
+                        <h3>Newly Launched</h3>
+                    </div>
+                </div>
+                <div class="collection-card">
+                    <img src="assets/vaana-by-stayvista-1769676586.jpeg" alt="Villas for Weddings">
+                    <div class="col-overlay">
+                        <h3>Villas for Weddings</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-arrow right" id="colNext"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <!-- SECTION 6: Trusted Partner -->
+    <section class="trusted-partners-section">
+        <div class="container text-center">
+            <h2>Your Trusted Getaway Partner</h2>
+            <p class="partner-tagline">Trusted by hundreds of happy travelers across India</p>
+
+            <div class="trust-factors-grid">
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <img src="assets/Stay.svg" alt="Stay"
+                            onerror="this.onerror=null; this.src='assets/trust_factor_2_a5845c4218.svg';">
+                    </div>
+                    <h3>Curated Stays</h3>
+                    <p>Only the best villas, handpicked for you</p>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <img src="assets/Service.svg" alt="Service"
+                            onerror="this.onerror=null; this.src='assets/trust_factor_3_3e14810fb7.svg';">
+                    </div>
+                    <h3>Unmatched Service</h3>
+                    <p>Dedicated concierge & travel assistance</p>
+                </div>
+                <div class="trust-item">
+                    <div class="trust-icon">
+                        <img src="assets/Safe.svg" alt="Safe"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='inline-block';">
+                        <i class="fa-solid fa-shield-halved fallback-icon"
+                            style="display:none; font-size:40px; color:var(--primary-gold);"></i>
+                    </div>
+                    <h3>Impeccable Villas</h3>
+                    <p>Clean, safe, and quality-checked stays</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 7: Footer -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <img src="assets/Luxury_Villa_Hub_Logo.png" alt="Logo" class="footer-logo">
+                <p>Luxury Villa Hub offers premium villa experiences tailored for those who appreciate the finest things
+                    in life. Unwind in absolute luxury.</p>
+            </div>
+            <div class="footer-col links-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#property-listings">Property Listings</a></li>
+                    <li><a href="#about-us">About Us</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col contact-col">
+                <h3>Contact Info</h3>
+                <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+                <p><i class="fa-solid fa-envelope"></i> hello@luxuryvillahub.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Thane West, Mumbai</p>
+            </div>
+            <div class="footer-col social-col">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container flex-between">
+                <p>&copy; 2026 Luxury Villa Hub. All Rights Reserved.</p>
+                <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+    <!-- Fixed Side Buttons for Call & WhatsApp -->
+    <div class="fixed-side-actions">
+        <!-- Assuming Call.png might not exist, I added a fallback icon -->
+        <a href="tel:+919082206173" class="side-btn call-btn" title="Call Us">
+            <img src="assets/Call.png" alt="Call"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <i class="fa-solid fa-phone fallback-side-icon" style="display:none;"></i>
+        </a>
+        <a href="https://wa.me/919082206173" class="side-btn whatsapp-btn" target="_blank" title="WhatsApp Us">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" class="scroll-top-btn" aria-label="Scroll to top"><i
+            class="fa-solid fa-chevron-up"></i></button>
+
+</body>
+
+</html>
